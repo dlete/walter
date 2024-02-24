@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Data xmlns="services.schema.networkapi.jmp.juniper.net">
+    <Customers>
+        <Customer key="950272" uri="/api/space/nsas/customer-management/customers/950272" href="/api/space/nsas/customer-management/customers/950272">
+            <Common>
+                <CustomerName>TEST-Customer</CustomerName>
+                <Identity>950272</Identity>
+                <CreatedDate>2016-10-27T12:26:37.000+01:00</CreatedDate>
+                <LastUpdatedDate>2016-10-27T12:26:37.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>12345</AccountNo>
+        </Customer>
+    </Customers>
+</Data>

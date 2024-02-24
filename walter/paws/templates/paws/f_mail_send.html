@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container">
+  <h5>{{ page_title }}</h5>
+  <p>{{ page_summary_text }}</p>
+
+  <form action="{% url 'paws:mail_send' %}" method="post">
+    {% csrf_token %}
+
+    <div class="form-group row">
+      <label for="mail_to" class="col-2 col-form-label">Send to:</label>
+      <div class="col-6">
+        <input class="form-control" type="email" id="mail_to" name="mail_to">
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="mail_subject" class="col-2 col-form-label">Subject:</label>
+      <div class="col-6">
+        <input class="form-control" type="text" id="mail_subject" name="mail_subject">
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="mail_body" class="col-2 col-form-label">Body:</label>
+      <div class="col-6">
+        <input class="form-control" type="text" id="mail_body" name="mail_body">
+      </div>
+    </div>
+
+
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Send mail</button>
+  </form>
+</div>
+
+{% endblock content %}

@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container">
+  <h5>{{ page_title }}</h5>
+  <p>{{ page_summary_text }}</p>
+
+  <ul class="list-group">
+  {% for item in list_to_render %}
+    <li class="list-group-item list-group-item-info">Item: {{ item }}</li>
+  {% endfor %}
+  </ul>
+
+  <h6>Raw output</h6>
+  <p>{{ text_message }}</p>
+</div>
+
+{% endblock content %}

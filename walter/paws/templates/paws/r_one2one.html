@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container">
+  <h5>{{ page_title }}</h5>
+  <p>{{ page_summary_text }}</p>
+
+  <ul class="list-group">
+    <li class="list-group-item list-group-item-info">Input, you gave me: {{ field_in }}</li>
+    <li class="list-group-item list-group-item-info">Output, I give you: {{ field_out }}</li>
+  </ul>
+</div>
+
+{% endblock content %}

@@ -1,0 +1,38 @@
+Get All PE Devices
+https://193.1.255.5/api/space/nsas/device-roles/pe-devices
+
+Get All UNIs of an N-PE Device (Version 2)
+api/space/nsas/pe-devices/<pe-device-id>/
+peunis
+
+
+https://193.1.255.5/api/space/nsas/device-roles/pe-devices
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Data xmlns="services.schema.networkapi.jmp.juniper.net">
+    <Devices size="3">
+        <Device key="1245220" uri="/api/space/nsas/device-roles/pe-devices/1245220" href="/api/space/nsas/device-roles/pe-devices/1245220">
+            <Common>
+                <Name>edge1-testlab</Name>
+                <Identity>1245220</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>1441977</MEId>
+        </Device>
+        <Device key="1245204" uri="/api/space/nsas/device-roles/pe-devices/1245204" href="/api/space/nsas/device-roles/pe-devices/1245204">
+            <Common>
+                <Name>edge2-testlab</Name>
+                <Identity>1245204</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>1441800</MEId>
+        </Device>
+        <Device key="1245187" uri="/api/space/nsas/device-roles/pe-devices/1245187" href="/api/space/nsas/device-roles/pe-devices/1245187">
+            <Common>
+                <Name>edge3-testlab</Name>
+                <Identity>1245187</Identity>
+            </Common>
+            <Role>N_PE</Role>
+            <MEId>1441805</MEId>
+        </Device>
+    </Devices>
+</Data>

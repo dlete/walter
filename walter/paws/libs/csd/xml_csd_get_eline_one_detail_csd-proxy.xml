@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Data xmlns="services.schema.networkapi.jmp.juniper.net">
+    <ServiceResource>
+        <Service key="19465051" uri="/api/space/nsas/eline-ptp/service-management/services/19465051" href="/api/space/nsas/eline-ptp/service-management/services/19465051">
+            <Common>
+                <Name>ek.sfpt.1507895727</Name>
+                <Identity>19465051</Identity>
+                <State>Deployed</State>
+                <Comments>test sfpt</Comments>
+                <CreatedDate>2017-10-13T13:03:47.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-13T13:03:47.000+01:00</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <Signalling>LDP</Signalling>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>Up</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <endpointcount>0</endpointcount>
+            <ServiceEndPointGroup>
+                <DeviceInfo>
+                    <NA key="19333795" uri="/api/space/nsas/device-roles/pe-devices/19333795" href="/api/space/nsas/device-roles/pe-devices/19333795">
+                        <DeviceName>dist1-testlab</DeviceName>
+                        <DeviceID>19333795</DeviceID>
+                        <CMPDeviceID>19595361</CMPDeviceID>
+                    </NA>
+                </DeviceInfo>
+                <ServiceEndPoint>
+                    <InterfaceName>ge-0/2/0.11</InterfaceName>
+                    <InterfaceIndex>519</InterfaceIndex>
+                    <ServiceEndpointConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PTPElineLDPEndPointConfigParameterServiceType">
+                        <EndPointCategory>PTP</EndPointCategory>
+                        <TrafficType>DOT1Q Transport single vlan</TrafficType>
+                        <PhysicalEncapsulation>flexible-ethernet-services</PhysicalEncapsulation>
+                        <LogicalEncapsulation>vlan-ccc</LogicalEncapsulation>
+                        <StitchingUnit>0</StitchingUnit>
+                        <UNIDescription>test</UNIDescription>
+                        <OuterTPID>None</OuterTPID>
+                        <UnitId>11</UnitId>
+                        <VlanId>11</VlanId>
+                        <MTU>9090</MTU>
+                        <Bandwidth unit="Mbps">0</Bandwidth>
+                    </ServiceEndpointConfiguration>
+                    <ServiceTemplates>
+                        <ServiceTemplate href="/api/space/nsas/eline-ptp/service-management/service-templates/16941061" uri="/api/space/nsas/eline-ptp/service-management/service-templates/16941061" key="16941061">
+                            <ID>16941061</ID>
+                            <Name>HEAnet output-vlan-map swap</Name>
+                        </ServiceTemplate>
+                    </ServiceTemplates>
+                </ServiceEndPoint>
+                <ServiceEndPointGroupParameter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PTPServiceEndpointGroupParameterServiceType">
+                    <PEDevice_LoopBackIP>87.44.48.99</PEDevice_LoopBackIP>
+                    <PEDevice_NeighborIP>87.44.48.101</PEDevice_NeighborIP>
+                </ServiceEndPointGroupParameter>
+            </ServiceEndPointGroup>
+            <ServiceEndPointGroup>
+                <DeviceInfo>
+                    <NA key="19333830" uri="/api/space/nsas/device-roles/pe-devices/19333830" href="/api/space/nsas/device-roles/pe-devices/19333830">
+                        <DeviceName>edge4-testlab</DeviceName>
+                        <DeviceID>19333830</DeviceID>
+                        <CMPDeviceID>19595357</CMPDeviceID>
+                    </NA>
+                </DeviceInfo>
+                <ServiceEndPoint>
+                    <InterfaceName>ge-0/0/3.10</InterfaceName>
+                    <InterfaceIndex>511</InterfaceIndex>
+                    <ServiceEndpointConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PTPElineLDPEndPointConfigParameterServiceType">
+                        <EndPointCategory>PTP</EndPointCategory>
+                        <TrafficType>DOT1Q Transport single vlan</TrafficType>
+                        <PhysicalEncapsulation>flexible-ethernet-services</PhysicalEncapsulation>
+                        <LogicalEncapsulation>vlan-ccc</LogicalEncapsulation>
+                        <StitchingUnit>0</StitchingUnit>
+                        <UNIDescription>test</UNIDescription>
+                        <OuterTPID>None</OuterTPID>
+                        <UnitId>10</UnitId>
+                        <VlanId>10</VlanId>
+                        <MTU>9090</MTU>
+                        <Bandwidth unit="Mbps">0</Bandwidth>
+                    </ServiceEndpointConfiguration>
+                    <ServiceTemplates>
+                        <ServiceTemplate href="/api/space/nsas/eline-ptp/service-management/service-templates/16941061" uri="/api/space/nsas/eline-ptp/service-management/service-templates/16941061" key="16941061">
+                            <ID>16941061</ID>
+                            <Name>HEAnet output-vlan-map swap</Name>
+                        </ServiceTemplate>
+                    </ServiceTemplates>
+                </ServiceEndPoint>
+                <ServiceEndPointGroupParameter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PTPServiceEndpointGroupParameterServiceType">
+                    <PEDevice_LoopBackIP>87.44.48.101</PEDevice_LoopBackIP>
+                    <PEDevice_NeighborIP>87.44.48.99</PEDevice_NeighborIP>
+                </ServiceEndPointGroupParameter>
+            </ServiceEndPointGroup>
+            <ServiceParameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PTPConfigParameterServiceType">
+                <MTU>9090</MTU>
+                <VCID>35</VCID>
+                <VlanNormalization>Swap</VlanNormalization>
+            </ServiceParameters>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/19465040" href="/api/space/nsas/eline-ptp/service-management/service-orders/19465040" key="19465040"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" href="/api/space/nsas/eline-ptp/service-management/service-definitions/16712375" key="16712375">
+                        <ServiceDefinitionName>HEAnet-Eline-Dot1q-SingleVLAN-Translation</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/950272" href="/api/space/nsas/customer-management/customers/950272" key="950272">
+                    <CustomerName>TEST-Customer</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+    </ServiceResource>
+</Data>

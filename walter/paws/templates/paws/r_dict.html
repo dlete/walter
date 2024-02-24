@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container">
+  <h5>{{ page_title }}</h5>
+  <p>{{ page_summary_text }}</p>
+
+  <ul class="list-group">
+  {% for key, value in dict_to_render.items %}
+    <li class="list-group-item list-group-item-info">{{ key }}: {{ value }}</li>
+  {% endfor %}
+  </ul>
+
+  <h6>Raw output</h6>
+  <p>{{ text_message }}</p>
+
+</div>
+
+{% endblock content %}

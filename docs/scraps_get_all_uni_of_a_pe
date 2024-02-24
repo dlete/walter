@@ -1,0 +1,223 @@
+Get All UNIs of an N-PE Device (Version 2)
+api/space/nsas/pe-devices/<pe-device-id>/
+peunis
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<peunis total="24">
+    <pe-interface-bean>
+        <image-name>ServiceProvisioning_serviceui_enginerule_UNI_Port_Ambiguous_265x315.png</image-name>
+        <id>lt-0/0/0</id>
+        <phy-encap>none</phy-encap>
+        <device-name>edge1-testlab</device-name>
+        <name>lt-0/0/0</name>
+        <role>UNKNOWN</role>
+        <vlan-profile>default [1-16769024]</vlan-profile>
+    </pe-interface-bean>
+    <pe-interface-bean>
+        <image-name>ServiceProvisioning_serviceui_enginerule_UNI_Port_Ambiguous_265x315.png</image-name>
+        <id>xe-0/0/0</id>
+        <phy-encap>none</phy-encap>
+        <device-name>edge1-testlab</device-name>
+        <name>xe-0/0/0</name>
+        <role>UNKNOWN</role>
+        <vlan-profile>default [1-16769024]</vlan-profile>
+    </pe-interface-bean>
+    <pe-interface-bean>
+        <image-name>ServiceProvisioning_serviceui_enginerule_UNI_Port_Ambiguous_265x315.png</image-name>
+        <id>xe-0/0/1</id>
+        <phy-encap>none</phy-encap>
+        <device-name>edge1-testlab</device-name>
+        <name>xe-0/0/1</name>
+        <role>UNKNOWN</role>
+        <vlan-profile>default [1-16769024]</vlan-profile>
+    </pe-interface-bean>
+    <pe-interface-bean>
+        <image-name>ServiceProvisioning_serviceui_enginerule_UNI_Port_Ambiguous_265x315.png</image-name>
+        <id>ge-1/0/4</id>
+        <phy-encap>flexible-ethernet-services</phy-encap>
+        <device-name>edge1-testlab</device-name>
+        <name>ge-1/0/4</name>
+        <role>UNKNOWN</role>
+        <vlan-profile>default [1-16769024]</vlan-profile>
+    </pe-interface-bean>
+    <pe-interface-bean>
+        <image-name>ServiceProvisioning_serviceui_enginerule_UNI_Port_Ambiguous_265x315.png</image-name>
+        <id>ge-1/0/5</id>
+        <phy-encap>none</phy-encap>
+        <device-name>edge1-testlab</device-name>
+        <name>ge-1/0/5</name>
+        <role>UNKNOWN</role>
+        <vlan-profile>default [1-16769024]</vlan-profile>
+    </pe-interface-bean>
+    <pe-interface-bean>
+        <image-name>ServiceProvisioning_serviceui_enginerule_UNI_Port_Ambiguous_265x315.png</image-name>
+        <id>ge-1/0/6</id>
+        <phy-encap>none</phy-encap>
+        <device-name>edge1-testlab</device-name>
+        <name>ge-1/0/6</name>
+        <role>UNKNOWN</role>
+        <vlan-profile>default [1-16769024]</vlan-profile>
+    </pe-interface-bean>
+    <pe-interface-bean>
+        <image-name>ServiceProvisioning_serviceui_enginerule_UNI_Port_Ambiguous_265x315.png</image-name>
+        <id>ge-1/0/7</id>
+        <phy-encap>none</phy-encap>
+        <device-name>edge1-testlab</device-name>
+        <name>ge-1/0/7</name>
+        <role>UNKNOWN</role>
+        <vlan-profile>default [1-16769024]</vlan-profile>
+    </pe-interface-bean>
+    <pe-interface-bean>
+        <image-name>ServiceProvisioning_serviceui_enginerule_UNI_Port_Ambiguous_265x315.png</image-name>
+        <id>ge-1/0/8</id>
+        <phy-encap>none</phy-encap>
+        <device-name>edge1-testlab</device-name>
+        <name>ge-1/0/8</name>
+        <role>UNKNOWN</role>
+        <vlan-profile>default [1-16769024]</vlan-profile>
+    </pe-interface-bean>
+    <pe-interface-bean>
+        <image-name>ServiceProvisioning_serviceui_enginerule_UNI_Port_Ambiguous_265x315.png</image-name>
+        <id>ge-1/0/9</id>
+        <phy-encap>none</phy-encap>
+        <device-name>edge1-testlab</device-name>
+        <name>ge-1/0/9</name>
+        <role>UNKNOWN</role>
+        <vlan-profile>default [1-16769024]</vlan-profile>
+    </pe-interface-bean>
+    <pe-interface-bean>
+        <image-name>ServiceProvisioning_serviceui_enginerule_UNI_Port_Ambiguous_265x315.png</image-name>
+        <id>ge-1/1/1</id>
+        <phy-encap>none</phy-encap>
+        <device-name>edge1-testlab</device-name>
+        <name>ge-1/1/1</name>
+        <role>UNKNOWN</role>
+        <vlan-profile>default [1-16769024]</vlan-profile>
+    </pe-interface-bean>
+    <pe-interface-bean>
+        <image-name>ServiceProvisioning_serviceui_enginerule_UNI_Port_Ambiguous_265x315.png</image-name>
+        <id>ge-1/1/2</id>
+        <phy-encap>none</phy-encap>
+        <device-name>edge1-testlab</device-name>
+        <name>ge-1/1/2</name>
+        <role>UNKNOWN</role>
+        <vlan-profile>default [1-16769024]</vlan-profile>
+    </pe-interface-bean>
+    <pe-interface-bean>
+        <image-name>ServiceProvisioning_serviceui_enginerule_UNI_Port_Ambiguous_265x315.png</image-name>
+        <id>ge-1/1/3</id>
+        <phy-encap>none</phy-encap>
+        <device-name>edge1-testlab</device-name>
+        <name>ge-1/1/3</name>
+        <role>UNKNOWN</role>
+        <vlan-profile>default [1-16769024]</vlan-profile>
+    </pe-interface-bean>
+    <pe-interface-bean>
+        <image-name>ServiceProvisioning_serviceui_enginerule_UNI_Port_Ambiguous_265x315.png</image-name>
+        <id>ge-1/1/4</id>
+        <phy-encap>none</phy-encap>
+        <device-name>edge1-testlab</device-name>
+        <name>ge-1/1/4</name>
+        <role>UNKNOWN</role>
+        <vlan-profile>default [1-16769024]</vlan-profile>
+    </pe-interface-bean>
+    <pe-interface-bean>
+        <image-name>ServiceProvisioning_serviceui_enginerule_UNI_Port_Ambiguous_265x315.png</image-name>
+        <id>ge-1/1/5</id>
+        <phy-encap>none</phy-encap>
+        <device-name>edge1-testlab</device-name>
+        <name>ge-1/1/5</name>
+        <role>UNKNOWN</role>
+        <vlan-profile>default [1-16769024]</vlan-profile>
+    </pe-interface-bean>
+    <pe-interface-bean>
+        <image-name>ServiceProvisioning_serviceui_enginerule_UNI_Port_Ambiguous_265x315.png</image-name>
+        <id>ge-1/1/6</id>
+        <phy-encap>none</phy-encap>
+        <device-name>edge1-testlab</device-name>
+        <name>ge-1/1/6</name>
+        <role>UNKNOWN</role>
+        <vlan-profile>default [1-16769024]</vlan-profile>
+    </pe-interface-bean>
+    <pe-interface-bean>
+        <image-name>ServiceProvisioning_serviceui_enginerule_UNI_Port_Ambiguous_265x315.png</image-name>
+        <id>ge-1/1/7</id>
+        <phy-encap>none</phy-encap>
+        <device-name>edge1-testlab</device-name>
+        <name>ge-1/1/7</name>
+        <role>UNKNOWN</role>
+        <vlan-profile>default [1-16769024]</vlan-profile>
+    </pe-interface-bean>
+    <pe-interface-bean>
+        <image-name>ServiceProvisioning_serviceui_enginerule_UNI_Port_Ambiguous_265x315.png</image-name>
+        <id>ge-1/1/8</id>
+        <phy-encap>none</phy-encap>
+        <device-name>edge1-testlab</device-name>
+        <name>ge-1/1/8</name>
+        <role>UNKNOWN</role>
+        <vlan-profile>default [1-16769024]</vlan-profile>
+    </pe-interface-bean>
+    <pe-interface-bean>
+        <image-name>ServiceProvisioning_serviceui_enginerule_UNI_Port_Ambiguous_265x315.png</image-name>
+        <id>ge-1/1/9</id>
+        <phy-encap>none</phy-encap>
+        <device-name>edge1-testlab</device-name>
+        <name>ge-1/1/9</name>
+        <role>UNKNOWN</role>
+        <vlan-profile>default [1-16769024]</vlan-profile>
+    </pe-interface-bean>
+    <pe-interface-bean>
+        <image-name>ServiceProvisioning_serviceui_enginerule_UNI_Port_Ambiguous_265x315.png</image-name>
+        <id>em0</id>
+        <phy-encap>none</phy-encap>
+        <device-name>edge1-testlab</device-name>
+        <name>em0</name>
+        <role>UNKNOWN</role>
+        <vlan-profile>default [1-16769024]</vlan-profile>
+    </pe-interface-bean>
+    <pe-interface-bean>
+        <image-name>ServiceProvisioning_serviceui_enginerule_UNI_Port_Ambiguous_265x315.png</image-name>
+        <id>em1</id>
+        <phy-encap>none</phy-encap>
+        <device-name>edge1-testlab</device-name>
+        <name>em1</name>
+        <role>UNKNOWN</role>
+        <vlan-profile>default [1-16769024]</vlan-profile>
+    </pe-interface-bean>
+    <pe-interface-bean>
+        <image-name>ServiceProvisioning_serviceui_enginerule_UNI_Port_Ambiguous_265x315.png</image-name>
+        <id>irb</id>
+        <phy-encap>none</phy-encap>
+        <device-name>edge1-testlab</device-name>
+        <name>irb</name>
+        <role>UNKNOWN</role>
+        <vlan-profile>default [1-16769024]</vlan-profile>
+    </pe-interface-bean>
+    <pe-interface-bean>
+        <image-name>ServiceProvisioning_serviceui_enginerule_UNI_Port_Ambiguous_265x315.png</image-name>
+        <id>ge-1/0/0</id>
+        <phy-encap>none</phy-encap>
+        <device-name>edge1-testlab</device-name>
+        <name>ge-1/0/0</name>
+        <role>UNKNOWN</role>
+        <vlan-profile>default [1-16769024]</vlan-profile>
+    </pe-interface-bean>
+    <pe-interface-bean>
+        <image-name>ServiceProvisioning_serviceui_enginerule_UNI_Port_Ambiguous_265x315.png</image-name>
+        <id>ge-1/1/0</id>
+        <phy-encap>none</phy-encap>
+        <device-name>edge1-testlab</device-name>
+        <name>ge-1/1/0</name>
+        <role>UNKNOWN</role>
+        <vlan-profile>default [1-16769024]</vlan-profile>
+    </pe-interface-bean>
+    <pe-interface-bean>
+        <image-name>ServiceProvisioning_serviceui_enginerule_UNI_Port_Ambiguous_265x315.png</image-name>
+        <id>ge-1/0/3</id>
+        <phy-encap>none</phy-encap>
+        <device-name>edge1-testlab</device-name>
+        <name>ge-1/0/3</name>
+        <role>UNKNOWN</role>
+        <vlan-profile>default [1-16769024]</vlan-profile>
+    </pe-interface-bean>
+</peunis>

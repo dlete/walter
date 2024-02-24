@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Data xmlns="services.schema.networkapi.jmp.juniper.net">
+    <ServiceResource>
+        <Service key="1605655" uri="/api/space/nsas/eline-ptp/service-management/services/1605655" href="/api/space/nsas/eline-ptp/service-management/services/1605655">
+            <Common>
+                <Name>heanet-testlab.heanet-testlab.1498122546</Name>
+                <Identity>1605655</Identity>
+                <State>DeploymentPending</State>
+                <Comments>Test for shortnames</Comments>
+                <CreatedDate>2017-06-22T09:13:21.000Z</CreatedDate>
+                <LastUpdatedDate>2017-06-22T09:13:21.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <Signalling>LDP</Signalling>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>None</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <endpointcount>0</endpointcount>
+            <ServiceEndPointGroup>
+                <DeviceInfo>
+                    <NA key="1245204" uri="/api/space/nsas/device-roles/pe-devices/1245204" href="/api/space/nsas/device-roles/pe-devices/1245204">
+                        <DeviceName>edge2-testlab</DeviceName>
+                        <DeviceID>1245204</DeviceID>
+                        <CMPDeviceID>1114128</CMPDeviceID>
+                    </NA>
+                </DeviceInfo>
+                <ServiceEndPoint>
+                    <InterfaceName>ge-0/1/2.0</InterfaceName>
+                    <InterfaceIndex>508</InterfaceIndex>
+                    <ServiceEndpointConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PTPElineLDPEndPointConfigParameterServiceType">
+                        <EndPointCategory>PTP</EndPointCategory>
+                        <TrafficType>Transport using port</TrafficType>
+                        <PhysicalEncapsulation>ethernet-ccc</PhysicalEncapsulation>
+                        <LogicalEncapsulation>N/A</LogicalEncapsulation>
+                        <StitchingUnit>0</StitchingUnit>
+                        <UNIDescription>(UN) testlab.heanet-testlab.1498122546</UNIDescription>
+                        <VlanId>0</VlanId>
+                        <MTU>1522</MTU>
+                        <Bandwidth unit="Mbps">10</Bandwidth>
+                    </ServiceEndpointConfiguration>
+                    <ServiceTemplates/>
+                </ServiceEndPoint>
+                <ServiceEndPointGroupParameter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PTPServiceEndpointGroupParameterServiceType">
+                    <PEDevice_LoopBackIP>87.44.48.22</PEDevice_LoopBackIP>
+                    <PEDevice_NeighborIP>87.44.48.23</PEDevice_NeighborIP>
+                </ServiceEndPointGroupParameter>
+            </ServiceEndPointGroup>
+            <ServiceEndPointGroup>
+                <DeviceInfo>
+                    <NA key="1245187" uri="/api/space/nsas/device-roles/pe-devices/1245187" href="/api/space/nsas/device-roles/pe-devices/1245187">
+                        <DeviceName>edge3-testlab</DeviceName>
+                        <DeviceID>1245187</DeviceID>
+                        <CMPDeviceID>1114130</CMPDeviceID>
+                    </NA>
+                </DeviceInfo>
+                <ServiceEndPoint>
+                    <InterfaceName>ge-0/2/0.0</InterfaceName>
+                    <InterfaceIndex>510</InterfaceIndex>
+                    <ServiceEndpointConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PTPElineLDPEndPointConfigParameterServiceType">
+                        <EndPointCategory>PTP</EndPointCategory>
+                        <TrafficType>Transport using port</TrafficType>
+                        <PhysicalEncapsulation>ethernet-ccc</PhysicalEncapsulation>
+                        <LogicalEncapsulation>N/A</LogicalEncapsulation>
+                        <StitchingUnit>0</StitchingUnit>
+                        <UNIDescription>(UN) testlab.heanet-testlab.1498122546</UNIDescription>
+                        <VlanId>0</VlanId>
+                        <MTU>1522</MTU>
+                        <Bandwidth unit="Mbps">10</Bandwidth>
+                    </ServiceEndpointConfiguration>
+                    <ServiceTemplates/>
+                </ServiceEndPoint>
+                <ServiceEndPointGroupParameter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PTPServiceEndpointGroupParameterServiceType">
+                    <PEDevice_LoopBackIP>87.44.48.23</PEDevice_LoopBackIP>
+                    <PEDevice_NeighborIP>87.44.48.22</PEDevice_NeighborIP>
+                </ServiceEndPointGroupParameter>
+            </ServiceEndPointGroup>
+            <ServiceParameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PTPConfigParameterServiceType">
+                <MTU>1522</MTU>
+                <VCID>101</VCID>
+                <VlanNormalization>Normalization not required</VlanNormalization>
+                <MTUFactor>10</MTUFactor>
+            </ServiceParameters>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/1605679" href="/api/space/nsas/eline-ptp/service-management/service-orders/1605679" key="1605679"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/524447" href="/api/space/nsas/eline-ptp/service-management/service-definitions/524447" key="524447">
+                        <ServiceDefinitionName>ELine-PortBased</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/1245258" href="/api/space/nsas/customer-management/customers/1245258" key="1245258">
+                    <CustomerName>DCU-Dublin City University</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+    </ServiceResource>
+</Data>

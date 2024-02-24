@@ -1,0 +1,18 @@
+[run]
+omit = 
+    # omit anyting with the keystring "test" in the filename
+    *test*
+    # omit anything with the keystring "__init__" in the filename
+    *__init__*
+    # omit this file
+    manage.py
+
+[report]
+omit =
+    # omit anyting with the keystring "test" in the filename
+    *test*
+    # omit anything with the keystring "__init__" in the filename
+    *__init__.py*
+    # omit this file
+    manage.py
+    *site-packages*

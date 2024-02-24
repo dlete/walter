@@ -1,0 +1,7 @@
+Get All ELAN VPLS Services By Fault Status . . . . . . . . . . . . . . . . . . . . . . . . . 738
+Get All E-LINE P2P Services By Fault Status . . . . . . . . . . . . . . . . . . . . . . . . . 739
+Get All L3VPN Services By Fault Status . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 740
+
+
+Get All E-LINE P2P Services By Fault Status
+https://csd-proxy.heanet.ie/api/space/nsas/eline-ptp/service-management/services?faultStatus=Down

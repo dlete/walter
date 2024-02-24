@@ -1,0 +1,32 @@
+<!-- django messages, if there are any -->
+<!-- https://docs.djangoproject.com/en/1.11/ref/contrib/messages/ -->
+<!-- https://getbootstrap.com/docs/4.0/components/alerts/ -->
+{% if messages %}
+  {% for message in messages %}
+
+	{% if message.level == DEFAULT_MESSAGE_LEVELS.DEBUG %}
+	  <div class="alert alert-secondary" role="alert">
+    {% endif %}
+
+    {% if message.level == DEFAULT_MESSAGE_LEVELS.INFO %}
+      <div class="alert alert-info" role="alert">
+    {% endif %}
+
+    {% if message.level == DEFAULT_MESSAGE_LEVELS.SUCCESS %}
+      <div class="alert alert-success" role="alert">
+    {% endif %}
+
+    {% if message.level == DEFAULT_MESSAGE_LEVELS.WARNING %}
+      <div class="alert alert-warning" role="alert">
+    {% endif %}
+
+    {% if message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}
+      <div class="alert alert-danger" role="alert">
+    {% endif %}
+
+        <strong>{{ message }}</strong>
+
+      </div>
+
+  {% endfor %}
+{% endif %}

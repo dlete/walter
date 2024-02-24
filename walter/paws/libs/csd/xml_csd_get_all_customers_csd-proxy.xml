@@ -1,0 +1,808 @@
+# output of 
+#https://csd-proxy.heanet.ie/api/space/nsas/customer-management/customers/
+
+<Data xmlns="services.schema.networkapi.jmp.juniper.net">
+    <Customers size="89">
+        <Customer key="950272" uri="/api/space/nsas/customer-management/customers/950272" href="/api/space/nsas/customer-management/customers/950272">
+            <Common>
+                <CustomerName>TEST-Customer</CustomerName>
+                <Identity>950272</Identity>
+                <CreatedDate>2016-10-27T12:26:37.000+01:00</CreatedDate>
+                <LastUpdatedDate>2016-10-27T12:26:37.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>12345</AccountNo>
+        </Customer>
+        <Customer key="14778530" uri="/api/space/nsas/customer-management/customers/14778530" href="/api/space/nsas/customer-management/customers/14778530">
+            <Common>
+                <CustomerName>QQI-Quality and Qualifications Ireland</CustomerName>
+                <Identity>14778530</Identity>
+                <CreatedDate>2017-02-23T12:57:13.000Z</CreatedDate>
+                <LastUpdatedDate>2017-02-23T12:57:13.000Z</LastUpdatedDate>
+            </Common>
+            <AccountNo>647</AccountNo>
+        </Customer>
+        <Customer key="15826962" uri="/api/space/nsas/customer-management/customers/15826962" href="/api/space/nsas/customer-management/customers/15826962">
+            <Common>
+                <CustomerName>ITB-Institute of Technology Blanchardstown</CustomerName>
+                <Identity>15826962</Identity>
+                <CreatedDate>2017-03-11T15:23:10.000Z</CreatedDate>
+                <LastUpdatedDate>2017-03-11T15:23:10.000Z</LastUpdatedDate>
+            </Common>
+            <AccountNo>32</AccountNo>
+        </Customer>
+        <Customer key="17957016" uri="/api/space/nsas/customer-management/customers/17957016" href="/api/space/nsas/customer-management/customers/17957016">
+            <Common>
+                <CustomerName>DCU-Dublin City University</CustomerName>
+                <Identity>17957016</Identity>
+                <CreatedDate>2017-05-17T19:06:44.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-05-17T19:06:44.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>17</AccountNo>
+        </Customer>
+        <Customer key="18645011" uri="/api/space/nsas/customer-management/customers/18645011" href="/api/space/nsas/customer-management/customers/18645011">
+            <Common>
+                <CustomerName>UCD</CustomerName>
+                <Identity>18645011</Identity>
+                <CreatedDate>2017-06-23T10:00:59.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-06-23T10:00:59.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB13</AccountNo>
+        </Customer>
+        <Customer key="18645018" uri="/api/space/nsas/customer-management/customers/18645018" href="/api/space/nsas/customer-management/customers/18645018">
+            <Common>
+                <CustomerName>UCC</CustomerName>
+                <Identity>18645018</Identity>
+                <CreatedDate>2017-06-23T10:01:02.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-06-23T10:01:02.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB36</AccountNo>
+        </Customer>
+        <Customer key="18645020" uri="/api/space/nsas/customer-management/customers/18645020" href="/api/space/nsas/customer-management/customers/18645020">
+            <Common>
+                <CustomerName>DKIT</CustomerName>
+                <Identity>18645020</Identity>
+                <CreatedDate>2017-06-23T10:01:02.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-06-23T10:01:02.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB22</AccountNo>
+        </Customer>
+        <Customer key="18645023" uri="/api/space/nsas/customer-management/customers/18645023" href="/api/space/nsas/customer-management/customers/18645023">
+            <Common>
+                <CustomerName>LYIT</CustomerName>
+                <Identity>18645023</Identity>
+                <CreatedDate>2017-06-23T10:01:04.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-06-23T10:01:04.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB47</AccountNo>
+        </Customer>
+        <Customer key="18645024" uri="/api/space/nsas/customer-management/customers/18645024" href="/api/space/nsas/customer-management/customers/18645024">
+            <Common>
+                <CustomerName>NUIG</CustomerName>
+                <Identity>18645024</Identity>
+                <CreatedDate>2017-06-23T10:01:04.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-06-23T10:01:04.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB42</AccountNo>
+        </Customer>
+        <Customer key="18645991" uri="/api/space/nsas/customer-management/customers/18645991" href="/api/space/nsas/customer-management/customers/18645991">
+            <Common>
+                <CustomerName>NCI</CustomerName>
+                <Identity>18645991</Identity>
+                <CreatedDate>2017-10-02T16:28:21.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:28:21.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB4</AccountNo>
+        </Customer>
+        <Customer key="18645992" uri="/api/space/nsas/customer-management/customers/18645992" href="/api/space/nsas/customer-management/customers/18645992">
+            <Common>
+                <CustomerName>AIT</CustomerName>
+                <Identity>18645992</Identity>
+                <CreatedDate>2017-10-02T16:28:22.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:28:22.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB7</AccountNo>
+        </Customer>
+        <Customer key="18645993" uri="/api/space/nsas/customer-management/customers/18645993" href="/api/space/nsas/customer-management/customers/18645993">
+            <Common>
+                <CustomerName>RCSI</CustomerName>
+                <Identity>18645993</Identity>
+                <CreatedDate>2017-10-02T16:28:22.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:28:22.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB9</AccountNo>
+        </Customer>
+        <Customer key="18645994" uri="/api/space/nsas/customer-management/customers/18645994" href="/api/space/nsas/customer-management/customers/18645994">
+            <Common>
+                <CustomerName>CAO</CustomerName>
+                <Identity>18645994</Identity>
+                <CreatedDate>2017-10-02T16:28:22.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:28:22.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB15</AccountNo>
+        </Customer>
+        <Customer key="18645995" uri="/api/space/nsas/customer-management/customers/18645995" href="/api/space/nsas/customer-management/customers/18645995">
+            <Common>
+                <CustomerName>CARLOWC</CustomerName>
+                <Identity>18645995</Identity>
+                <CreatedDate>2017-10-02T16:28:24.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:28:24.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB16</AccountNo>
+        </Customer>
+        <Customer key="18645996" uri="/api/space/nsas/customer-management/customers/18645996" href="/api/space/nsas/customer-management/customers/18645996">
+            <Common>
+                <CustomerName>DIAS</CustomerName>
+                <Identity>18645996</Identity>
+                <CreatedDate>2017-10-02T16:28:28.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:28:28.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB18</AccountNo>
+        </Customer>
+        <Customer key="18645997" uri="/api/space/nsas/customer-management/customers/18645997" href="/api/space/nsas/customer-management/customers/18645997">
+            <Common>
+                <CustomerName>IADT</CustomerName>
+                <Identity>18645997</Identity>
+                <CreatedDate>2017-10-02T16:28:40.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:28:40.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB23</AccountNo>
+        </Customer>
+        <Customer key="18645998" uri="/api/space/nsas/customer-management/customers/18645998" href="/api/space/nsas/customer-management/customers/18645998">
+            <Common>
+                <CustomerName>EPA</CustomerName>
+                <Identity>18645998</Identity>
+                <CreatedDate>2017-10-02T16:28:43.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:28:43.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB24</AccountNo>
+        </Customer>
+        <Customer key="18645999" uri="/api/space/nsas/customer-management/customers/18645999" href="/api/space/nsas/customer-management/customers/18645999">
+            <Common>
+                <CustomerName>HEA</CustomerName>
+                <Identity>18645999</Identity>
+                <CreatedDate>2017-10-02T16:28:46.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:28:46.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB26</AccountNo>
+        </Customer>
+        <Customer key="18646000" uri="/api/space/nsas/customer-management/customers/18646000" href="/api/space/nsas/customer-management/customers/18646000">
+            <Common>
+                <CustomerName>HRB</CustomerName>
+                <Identity>18646000</Identity>
+                <CreatedDate>2017-10-02T16:28:47.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:28:47.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB28</AccountNo>
+        </Customer>
+        <Customer key="18646001" uri="/api/space/nsas/customer-management/customers/18646001" href="/api/space/nsas/customer-management/customers/18646001">
+            <Common>
+                <CustomerName>THEA</CustomerName>
+                <Identity>18646001</Identity>
+                <CreatedDate>2017-10-02T16:28:51.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:28:51.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB30</AccountNo>
+        </Customer>
+        <Customer key="18646002" uri="/api/space/nsas/customer-management/customers/18646002" href="/api/space/nsas/customer-management/customers/18646002">
+            <Common>
+                <CustomerName>ITTD</CustomerName>
+                <Identity>18646002</Identity>
+                <CreatedDate>2017-10-02T16:29:02.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:02.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB33</AccountNo>
+        </Customer>
+        <Customer key="18646003" uri="/api/space/nsas/customer-management/customers/18646003" href="/api/space/nsas/customer-management/customers/18646003">
+            <Common>
+                <CustomerName>WIT</CustomerName>
+                <Identity>18646003</Identity>
+                <CreatedDate>2017-10-02T16:29:04.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:04.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB34</AccountNo>
+        </Customer>
+        <Customer key="18646004" uri="/api/space/nsas/customer-management/customers/18646004" href="/api/space/nsas/customer-management/customers/18646004">
+            <Common>
+                <CustomerName>ITT</CustomerName>
+                <Identity>18646004</Identity>
+                <CreatedDate>2017-10-02T16:29:10.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:10.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB37</AccountNo>
+        </Customer>
+        <Customer key="18646005" uri="/api/space/nsas/customer-management/customers/18646005" href="/api/space/nsas/customer-management/customers/18646005">
+            <Common>
+                <CustomerName>RIA</CustomerName>
+                <Identity>18646005</Identity>
+                <CreatedDate>2017-10-02T16:29:14.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:14.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB40</AccountNo>
+        </Customer>
+        <Customer key="18646006" uri="/api/space/nsas/customer-management/customers/18646006" href="/api/space/nsas/customer-management/customers/18646006">
+            <Common>
+                <CustomerName>NUI</CustomerName>
+                <Identity>18646006</Identity>
+                <CreatedDate>2017-10-02T16:29:16.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:16.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB41</AccountNo>
+        </Customer>
+        <Customer key="18646007" uri="/api/space/nsas/customer-management/customers/18646007" href="/api/space/nsas/customer-management/customers/18646007">
+            <Common>
+                <CustomerName>MU</CustomerName>
+                <Identity>18646007</Identity>
+                <CreatedDate>2017-10-02T16:29:19.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:19.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB43</AccountNo>
+        </Customer>
+        <Customer key="18646008" uri="/api/space/nsas/customer-management/customers/18646008" href="/api/space/nsas/customer-management/customers/18646008">
+            <Common>
+                <CustomerName>NDRC</CustomerName>
+                <Identity>18646008</Identity>
+                <CreatedDate>2017-10-02T16:29:21.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:21.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB44</AccountNo>
+        </Customer>
+        <Customer key="18646009" uri="/api/space/nsas/customer-management/customers/18646009" href="/api/space/nsas/customer-management/customers/18646009">
+            <Common>
+                <CustomerName>KILLESTER</CustomerName>
+                <Identity>18646009</Identity>
+                <CreatedDate>2017-10-02T16:29:26.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:26.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB50</AccountNo>
+        </Customer>
+        <Customer key="18646010" uri="/api/space/nsas/customer-management/customers/18646010" href="/api/space/nsas/customer-management/customers/18646010">
+            <Common>
+                <CustomerName>PAC</CustomerName>
+                <Identity>18646010</Identity>
+                <CreatedDate>2017-10-02T16:29:28.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:28.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB53</AccountNo>
+        </Customer>
+        <Customer key="18646011" uri="/api/space/nsas/customer-management/customers/18646011" href="/api/space/nsas/customer-management/customers/18646011">
+            <Common>
+                <CustomerName>ICHEC</CustomerName>
+                <Identity>18646011</Identity>
+                <CreatedDate>2017-10-02T16:29:29.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:29.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB57</AccountNo>
+        </Customer>
+        <Customer key="18646012" uri="/api/space/nsas/customer-management/customers/18646012" href="/api/space/nsas/customer-management/customers/18646012">
+            <Common>
+                <CustomerName>CSN</CustomerName>
+                <Identity>18646012</Identity>
+                <CreatedDate>2017-10-02T16:29:30.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:30.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB63</AccountNo>
+        </Customer>
+        <Customer key="18646013" uri="/api/space/nsas/customer-management/customers/18646013" href="/api/space/nsas/customer-management/customers/18646013">
+            <Common>
+                <CustomerName>RCPI</CustomerName>
+                <Identity>18646013</Identity>
+                <CreatedDate>2017-10-02T16:29:34.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:34.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB77</AccountNo>
+        </Customer>
+        <Customer key="18646014" uri="/api/space/nsas/customer-management/customers/18646014" href="/api/space/nsas/customer-management/customers/18646014">
+            <Common>
+                <CustomerName>FULBRIGHT</CustomerName>
+                <Identity>18646014</Identity>
+                <CreatedDate>2017-10-02T16:29:36.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:36.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB248</AccountNo>
+        </Customer>
+        <Customer key="18646015" uri="/api/space/nsas/customer-management/customers/18646015" href="/api/space/nsas/customer-management/customers/18646015">
+            <Common>
+                <CustomerName>MIC</CustomerName>
+                <Identity>18646015</Identity>
+                <CreatedDate>2017-10-02T16:29:37.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:37.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB107</AccountNo>
+        </Customer>
+        <Customer key="18646016" uri="/api/space/nsas/customer-management/customers/18646016" href="/api/space/nsas/customer-management/customers/18646016">
+            <Common>
+                <CustomerName>QUALIFAX</CustomerName>
+                <Identity>18646016</Identity>
+                <CreatedDate>2017-10-02T16:29:37.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:37.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB251</AccountNo>
+        </Customer>
+        <Customer key="18646017" uri="/api/space/nsas/customer-management/customers/18646017" href="/api/space/nsas/customer-management/customers/18646017">
+            <Common>
+                <CustomerName>NDLR</CustomerName>
+                <Identity>18646017</Identity>
+                <CreatedDate>2017-10-02T16:29:38.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:38.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB484</AccountNo>
+        </Customer>
+        <Customer key="18646018" uri="/api/space/nsas/customer-management/customers/18646018" href="/api/space/nsas/customer-management/customers/18646018">
+            <Common>
+                <CustomerName>LMETB</CustomerName>
+                <Identity>18646018</Identity>
+                <CreatedDate>2017-10-02T16:29:39.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:39.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB502</AccountNo>
+        </Customer>
+        <Customer key="18646019" uri="/api/space/nsas/customer-management/customers/18646019" href="/api/space/nsas/customer-management/customers/18646019">
+            <Common>
+                <CustomerName>LCETB</CustomerName>
+                <Identity>18646019</Identity>
+                <CreatedDate>2017-10-02T16:29:39.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:39.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB563</AccountNo>
+        </Customer>
+        <Customer key="18646020" uri="/api/space/nsas/customer-management/customers/18646020" href="/api/space/nsas/customer-management/customers/18646020">
+            <Common>
+                <CustomerName>CORKETB</CustomerName>
+                <Identity>18646020</Identity>
+                <CreatedDate>2017-10-02T16:29:40.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:40.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB565</AccountNo>
+        </Customer>
+        <Customer key="18646021" uri="/api/space/nsas/customer-management/customers/18646021" href="/api/space/nsas/customer-management/customers/18646021">
+            <Common>
+                <CustomerName>MIC-SPT</CustomerName>
+                <Identity>18646021</Identity>
+                <CreatedDate>2017-10-02T16:29:40.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:40.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB609</AccountNo>
+        </Customer>
+        <Customer key="18646022" uri="/api/space/nsas/customer-management/customers/18646022" href="/api/space/nsas/customer-management/customers/18646022">
+            <Common>
+                <CustomerName>ETBI</CustomerName>
+                <Identity>18646022</Identity>
+                <CreatedDate>2017-10-02T16:29:40.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:40.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB593</AccountNo>
+        </Customer>
+        <Customer key="18646023" uri="/api/space/nsas/customer-management/customers/18646023" href="/api/space/nsas/customer-management/customers/18646023">
+            <Common>
+                <CustomerName>IRAAL</CustomerName>
+                <Identity>18646023</Identity>
+                <CreatedDate>2017-10-02T16:29:40.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:40.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB763</AccountNo>
+        </Customer>
+        <Customer key="18646024" uri="/api/space/nsas/customer-management/customers/18646024" href="/api/space/nsas/customer-management/customers/18646024">
+            <Common>
+                <CustomerName>NFETLHE</CustomerName>
+                <Identity>18646024</Identity>
+                <CreatedDate>2017-10-02T16:29:41.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:41.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB859</AccountNo>
+        </Customer>
+        <Customer key="18646025" uri="/api/space/nsas/customer-management/customers/18646025" href="/api/space/nsas/customer-management/customers/18646025">
+            <Common>
+                <CustomerName>FPA</CustomerName>
+                <Identity>18646025</Identity>
+                <CreatedDate>2017-10-02T16:29:41.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:41.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB954</AccountNo>
+        </Customer>
+        <Customer key="18646026" uri="/api/space/nsas/customer-management/customers/18646026" href="/api/space/nsas/customer-management/customers/18646026">
+            <Common>
+                <CustomerName>RIAM</CustomerName>
+                <Identity>18646026</Identity>
+                <CreatedDate>2017-10-02T16:29:41.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:41.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB902</AccountNo>
+        </Customer>
+        <Customer key="18646027" uri="/api/space/nsas/customer-management/customers/18646027" href="/api/space/nsas/customer-management/customers/18646027">
+            <Common>
+                <CustomerName>MAC</CustomerName>
+                <Identity>18646027</Identity>
+                <CreatedDate>2017-10-02T16:29:41.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:41.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB901</AccountNo>
+        </Customer>
+        <Customer key="19333138" uri="/api/space/nsas/customer-management/customers/19333138" href="/api/space/nsas/customer-management/customers/19333138">
+            <Common>
+                <CustomerName>TCD</CustomerName>
+                <Identity>19333138</Identity>
+                <CreatedDate>2017-06-23T10:01:16.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-06-23T10:01:16.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB1</AccountNo>
+        </Customer>
+        <Customer key="19333141" uri="/api/space/nsas/customer-management/customers/19333141" href="/api/space/nsas/customer-management/customers/19333141">
+            <Common>
+                <CustomerName>UL</CustomerName>
+                <Identity>19333141</Identity>
+                <CreatedDate>2017-06-23T10:01:26.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-06-23T10:01:26.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB35</AccountNo>
+        </Customer>
+        <Customer key="19333163" uri="/api/space/nsas/customer-management/customers/19333163" href="/api/space/nsas/customer-management/customers/19333163">
+            <Common>
+                <CustomerName>PDST</CustomerName>
+                <Identity>19333163</Identity>
+                <CreatedDate>2017-06-23T10:01:33.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-06-23T10:01:33.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB604</AccountNo>
+        </Customer>
+        <Customer key="19333171" uri="/api/space/nsas/customer-management/customers/19333171" href="/api/space/nsas/customer-management/customers/19333171">
+            <Common>
+                <CustomerName>DCU</CustomerName>
+                <Identity>19333171</Identity>
+                <CreatedDate>2017-06-23T10:02:27.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-06-23T10:02:27.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB17</AccountNo>
+        </Customer>
+        <Customer key="19333172" uri="/api/space/nsas/customer-management/customers/19333172" href="/api/space/nsas/customer-management/customers/19333172">
+            <Common>
+                <CustomerName>EDUCAMPUS</CustomerName>
+                <Identity>19333172</Identity>
+                <CreatedDate>2017-06-23T10:02:38.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-06-23T10:02:38.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB900</AccountNo>
+        </Customer>
+        <Customer key="19333173" uri="/api/space/nsas/customer-management/customers/19333173" href="/api/space/nsas/customer-management/customers/19333173">
+            <Common>
+                <CustomerName>HEANET</CustomerName>
+                <Identity>19333173</Identity>
+                <CreatedDate>2017-06-23T10:02:47.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-06-23T10:02:47.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB55</AccountNo>
+        </Customer>
+        <Customer key="19333174" uri="/api/space/nsas/customer-management/customers/19333174" href="/api/space/nsas/customer-management/customers/19333174">
+            <Common>
+                <CustomerName>ITB</CustomerName>
+                <Identity>19333174</Identity>
+                <CreatedDate>2017-06-23T10:03:03.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-06-23T10:03:03.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB32</AccountNo>
+        </Customer>
+        <Customer key="19333175" uri="/api/space/nsas/customer-management/customers/19333175" href="/api/space/nsas/customer-management/customers/19333175">
+            <Common>
+                <CustomerName>QQI</CustomerName>
+                <Identity>19333175</Identity>
+                <CreatedDate>2017-06-23T10:03:17.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-06-23T10:03:17.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB647</AccountNo>
+        </Customer>
+        <Customer key="19333536" uri="/api/space/nsas/customer-management/customers/19333536" href="/api/space/nsas/customer-management/customers/19333536">
+            <Common>
+                <CustomerName>SCHOOLS</CustomerName>
+                <Identity>19333536</Identity>
+                <CreatedDate>2017-08-16T10:00:32.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-08-16T10:00:32.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB993</AccountNo>
+        </Customer>
+        <Customer key="19333749" uri="/api/space/nsas/customer-management/customers/19333749" href="/api/space/nsas/customer-management/customers/19333749">
+            <Common>
+                <CustomerName>MI</CustomerName>
+                <Identity>19333749</Identity>
+                <CreatedDate>2017-10-02T16:28:25.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:28:25.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB6</AccountNo>
+        </Customer>
+        <Customer key="19333750" uri="/api/space/nsas/customer-management/customers/19333750" href="/api/space/nsas/customer-management/customers/19333750">
+            <Common>
+                <CustomerName>ITC</CustomerName>
+                <Identity>19333750</Identity>
+                <CreatedDate>2017-10-02T16:28:26.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:28:26.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB2</AccountNo>
+        </Customer>
+        <Customer key="19333751" uri="/api/space/nsas/customer-management/customers/19333751" href="/api/space/nsas/customer-management/customers/19333751">
+            <Common>
+                <CustomerName>ESRI</CustomerName>
+                <Identity>19333751</Identity>
+                <CreatedDate>2017-10-02T16:28:26.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:28:26.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB3</AccountNo>
+        </Customer>
+        <Customer key="19333752" uri="/api/space/nsas/customer-management/customers/19333752" href="/api/space/nsas/customer-management/customers/19333752">
+            <Common>
+                <CustomerName>NCRI</CustomerName>
+                <Identity>19333752</Identity>
+                <CreatedDate>2017-10-02T16:28:26.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:28:26.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB12</AccountNo>
+        </Customer>
+        <Customer key="19333753" uri="/api/space/nsas/customer-management/customers/19333753" href="/api/space/nsas/customer-management/customers/19333753">
+            <Common>
+                <CustomerName>CIT</CustomerName>
+                <Identity>19333753</Identity>
+                <CreatedDate>2017-10-02T16:28:26.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:28:26.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB11</AccountNo>
+        </Customer>
+        <Customer key="19333754" uri="/api/space/nsas/customer-management/customers/19333754" href="/api/space/nsas/customer-management/customers/19333754">
+            <Common>
+                <CustomerName>BCFE</CustomerName>
+                <Identity>19333754</Identity>
+                <CreatedDate>2017-10-02T16:28:27.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:28:27.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB14</AccountNo>
+        </Customer>
+        <Customer key="19333755" uri="/api/space/nsas/customer-management/customers/19333755" href="/api/space/nsas/customer-management/customers/19333755">
+            <Common>
+                <CustomerName>IUA</CustomerName>
+                <Identity>19333755</Identity>
+                <CreatedDate>2017-10-02T16:28:29.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:28:29.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB19</AccountNo>
+        </Customer>
+        <Customer key="19333756" uri="/api/space/nsas/customer-management/customers/19333756" href="/api/space/nsas/customer-management/customers/19333756">
+            <Common>
+                <CustomerName>DIT</CustomerName>
+                <Identity>19333756</Identity>
+                <CreatedDate>2017-10-02T16:28:30.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:28:30.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB21</AccountNo>
+        </Customer>
+        <Customer key="19333757" uri="/api/space/nsas/customer-management/customers/19333757" href="/api/space/nsas/customer-management/customers/19333757">
+            <Common>
+                <CustomerName>GMIT</CustomerName>
+                <Identity>19333757</Identity>
+                <CreatedDate>2017-10-02T16:28:41.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:28:41.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB25</AccountNo>
+        </Customer>
+        <Customer key="19333758" uri="/api/space/nsas/customer-management/customers/19333758" href="/api/space/nsas/customer-management/customers/19333758">
+            <Common>
+                <CustomerName>IEDR</CustomerName>
+                <Identity>19333758</Identity>
+                <CreatedDate>2017-10-02T16:28:45.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:28:45.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB29</AccountNo>
+        </Customer>
+        <Customer key="19333759" uri="/api/space/nsas/customer-management/customers/19333759" href="/api/space/nsas/customer-management/customers/19333759">
+            <Common>
+                <CustomerName>IPA</CustomerName>
+                <Identity>19333759</Identity>
+                <CreatedDate>2017-10-02T16:28:51.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:28:51.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB31</AccountNo>
+        </Customer>
+        <Customer key="19333760" uri="/api/space/nsas/customer-management/customers/19333760" href="/api/space/nsas/customer-management/customers/19333760">
+            <Common>
+                <CustomerName>ITS</CustomerName>
+                <Identity>19333760</Identity>
+                <CreatedDate>2017-10-02T16:29:08.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:08.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB39</AccountNo>
+        </Customer>
+        <Customer key="19333761" uri="/api/space/nsas/customer-management/customers/19333761" href="/api/space/nsas/customer-management/customers/19333761">
+            <Common>
+                <CustomerName>LIT</CustomerName>
+                <Identity>19333761</Identity>
+                <CreatedDate>2017-10-02T16:29:18.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:18.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB46</AccountNo>
+        </Customer>
+        <Customer key="19333762" uri="/api/space/nsas/customer-management/customers/19333762" href="/api/space/nsas/customer-management/customers/19333762">
+            <Common>
+                <CustomerName>NCAD</CustomerName>
+                <Identity>19333762</Identity>
+                <CreatedDate>2017-10-02T16:29:19.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:19.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB48</AccountNo>
+        </Customer>
+        <Customer key="19333763" uri="/api/space/nsas/customer-management/customers/19333763" href="/api/space/nsas/customer-management/customers/19333763">
+            <Common>
+                <CustomerName>ANCHEIM</CustomerName>
+                <Identity>19333763</Identity>
+                <CreatedDate>2017-10-02T16:29:20.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:20.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB49</AccountNo>
+        </Customer>
+        <Customer key="19333764" uri="/api/space/nsas/customer-management/customers/19333764" href="/api/space/nsas/customer-management/customers/19333764">
+            <Common>
+                <CustomerName>GSI</CustomerName>
+                <Identity>19333764</Identity>
+                <CreatedDate>2017-10-02T16:29:22.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:22.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB65</AccountNo>
+        </Customer>
+        <Customer key="19333765" uri="/api/space/nsas/customer-management/customers/19333765" href="/api/space/nsas/customer-management/customers/19333765">
+            <Common>
+                <CustomerName>IRCHSS</CustomerName>
+                <Identity>19333765</Identity>
+                <CreatedDate>2017-10-02T16:29:23.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:23.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB66</AccountNo>
+        </Customer>
+        <Customer key="19333766" uri="/api/space/nsas/customer-management/customers/19333766" href="/api/space/nsas/customer-management/customers/19333766">
+            <Common>
+                <CustomerName>IRCSET</CustomerName>
+                <Identity>19333766</Identity>
+                <CreatedDate>2017-10-02T16:29:25.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:25.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB67</AccountNo>
+        </Customer>
+        <Customer key="19333767" uri="/api/space/nsas/customer-management/customers/19333767" href="/api/space/nsas/customer-management/customers/19333767">
+            <Common>
+                <CustomerName>GCT</CustomerName>
+                <Identity>19333767</Identity>
+                <CreatedDate>2017-10-02T16:29:26.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:26.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB68</AccountNo>
+        </Customer>
+        <Customer key="19333768" uri="/api/space/nsas/customer-management/customers/19333768" href="/api/space/nsas/customer-management/customers/19333768">
+            <Common>
+                <CustomerName>COA</CustomerName>
+                <Identity>19333768</Identity>
+                <CreatedDate>2017-10-02T16:29:27.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:27.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB83</AccountNo>
+        </Customer>
+        <Customer key="19333769" uri="/api/space/nsas/customer-management/customers/19333769" href="/api/space/nsas/customer-management/customers/19333769">
+            <Common>
+                <CustomerName>HSE</CustomerName>
+                <Identity>19333769</Identity>
+                <CreatedDate>2017-10-02T16:29:28.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:28.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB254</AccountNo>
+        </Customer>
+        <Customer key="19333770" uri="/api/space/nsas/customer-management/customers/19333770" href="/api/space/nsas/customer-management/customers/19333770">
+            <Common>
+                <CustomerName>QUB</CustomerName>
+                <Identity>19333770</Identity>
+                <CreatedDate>2017-10-02T16:29:31.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:31.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB395</AccountNo>
+        </Customer>
+        <Customer key="19333771" uri="/api/space/nsas/customer-management/customers/19333771" href="/api/space/nsas/customer-management/customers/19333771">
+            <Common>
+                <CustomerName>CONUL</CustomerName>
+                <Identity>19333771</Identity>
+                <CreatedDate>2017-10-02T16:29:32.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:32.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB257</AccountNo>
+        </Customer>
+        <Customer key="19333772" uri="/api/space/nsas/customer-management/customers/19333772" href="/api/space/nsas/customer-management/customers/19333772">
+            <Common>
+                <CustomerName>STJOHNS</CustomerName>
+                <Identity>19333772</Identity>
+                <CreatedDate>2017-10-02T16:29:32.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:32.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB494</AccountNo>
+        </Customer>
+        <Customer key="19333773" uri="/api/space/nsas/customer-management/customers/19333773" href="/api/space/nsas/customer-management/customers/19333773">
+            <Common>
+                <CustomerName>TEACHNET</CustomerName>
+                <Identity>19333773</Identity>
+                <CreatedDate>2017-10-02T16:29:33.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:33.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB561</AccountNo>
+        </Customer>
+        <Customer key="19333774" uri="/api/space/nsas/customer-management/customers/19333774" href="/api/space/nsas/customer-management/customers/19333774">
+            <Common>
+                <CustomerName>LOETB</CustomerName>
+                <Identity>19333774</Identity>
+                <CreatedDate>2017-10-02T16:29:36.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:36.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB602</AccountNo>
+        </Customer>
+        <Customer key="19333775" uri="/api/space/nsas/customer-management/customers/19333775" href="/api/space/nsas/customer-management/customers/19333775">
+            <Common>
+                <CustomerName>Cork-ETB</CustomerName>
+                <Identity>19333775</Identity>
+                <CreatedDate>2017-10-02T16:29:38.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:38.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB635</AccountNo>
+        </Customer>
+        <Customer key="19333776" uri="/api/space/nsas/customer-management/customers/19333776" href="/api/space/nsas/customer-management/customers/19333776">
+            <Common>
+                <CustomerName>KWETB</CustomerName>
+                <Identity>19333776</Identity>
+                <CreatedDate>2017-10-02T16:29:38.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:38.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB610</AccountNo>
+        </Customer>
+        <Customer key="19333777" uri="/api/space/nsas/customer-management/customers/19333777" href="/api/space/nsas/customer-management/customers/19333777">
+            <Common>
+                <CustomerName>DFEi</CustomerName>
+                <Identity>19333777</Identity>
+                <CreatedDate>2017-10-02T16:29:38.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:38.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB624</AccountNo>
+        </Customer>
+        <Customer key="19333778" uri="/api/space/nsas/customer-management/customers/19333778" href="/api/space/nsas/customer-management/customers/19333778">
+            <Common>
+                <CustomerName>CDETB</CustomerName>
+                <Identity>19333778</Identity>
+                <CreatedDate>2017-10-02T16:29:38.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:38.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB736</AccountNo>
+        </Customer>
+        <Customer key="19333779" uri="/api/space/nsas/customer-management/customers/19333779" href="/api/space/nsas/customer-management/customers/19333779">
+            <Common>
+                <CustomerName>OIR</CustomerName>
+                <Identity>19333779</Identity>
+                <CreatedDate>2017-10-02T16:29:39.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:39.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB690</AccountNo>
+        </Customer>
+        <Customer key="19333780" uri="/api/space/nsas/customer-management/customers/19333780" href="/api/space/nsas/customer-management/customers/19333780">
+            <Common>
+                <CustomerName>SMB</CustomerName>
+                <Identity>19333780</Identity>
+                <CreatedDate>2017-10-02T16:29:39.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:39.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB636</AccountNo>
+        </Customer>
+        <Customer key="19333781" uri="/api/space/nsas/customer-management/customers/19333781" href="/api/space/nsas/customer-management/customers/19333781">
+            <Common>
+                <CustomerName>ESBS</CustomerName>
+                <Identity>19333781</Identity>
+                <CreatedDate>2017-10-02T16:29:39.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:39.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB968</AccountNo>
+        </Customer>
+        <Customer key="19333782" uri="/api/space/nsas/customer-management/customers/19333782" href="/api/space/nsas/customer-management/customers/19333782">
+            <Common>
+                <CustomerName>IPS</CustomerName>
+                <Identity>19333782</Identity>
+                <CreatedDate>2017-10-02T16:29:39.000+01:00</CreatedDate>
+                <LastUpdatedDate>2017-10-02T16:29:39.000+01:00</LastUpdatedDate>
+            </Common>
+            <AccountNo>CDB978</AccountNo>
+        </Customer>
+    </Customers>
+</Data>

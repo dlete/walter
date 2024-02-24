@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Data xmlns="services.schema.networkapi.jmp.juniper.net">
+    <ServiceResource size="1">
+        <Service key="1605655" uri="/api/space/nsas/eline-ptp/service-management/services/1605655" href="/api/space/nsas/eline-ptp/service-management/services/1605655">
+            <Common>
+                <Name>heanet-testlab.heanet-testlab.1498122546</Name>
+                <Identity>1605655</Identity>
+                <State>DeploymentPending</State>
+                <Comments>Test for shortnames</Comments>
+                <CreatedDate>2017-06-22T09:13:21.000Z</CreatedDate>
+                <LastUpdatedDate>2017-06-22T09:13:21.000Z</LastUpdatedDate>
+            </Common>
+            <ServiceType>LDP</ServiceType>
+            <AuditFlag>
+                <FunctionalAudit>Pending</FunctionalAudit>
+                <ConfigurationAudit>Pending</ConfigurationAudit>
+                <FaultStatus>None</FaultStatus>
+                <SLAStatus>None</SLAStatus>
+                <OverallStatus>N/A</OverallStatus>
+            </AuditFlag>
+            <Reference>
+                <ServiceOrder uri="/api/space/nsas/eline-ptp/service-management/service-orders/1605679" href="/api/space/nsas/eline-ptp/service-management/service-orders/1605679" key="1605679"/>
+                <ServiceDefinition>
+                    <ServiceDefinitionID uri="/api/space/nsas/eline-ptp/service-management/service-definitions/524447" href="/api/space/nsas/eline-ptp/service-management/service-definitions/524447" key="524447">
+                        <ServiceDefinitionName>ELine-PortBased</ServiceDefinitionName>
+                    </ServiceDefinitionID>
+                </ServiceDefinition>
+                <Customer uri="/api/space/nsas/customer-management/customers/1245258" href="/api/space/nsas/customer-management/customers/1245258" key="1245258">
+                    <CustomerName>DCU-Dublin City University</CustomerName>
+                </Customer>
+            </Reference>
+        </Service>
+    </ServiceResource>
+</Data>
